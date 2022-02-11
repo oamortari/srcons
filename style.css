@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 120px;
+
+    background-color: #053080;
+
+    font-size: 18px;
+    color: #FFF;
+}
+
+.topo-logo, .topo-menu {
+    margin: 0px 50px;
+}
+
+.topo-menu ul {
+    display: flex;
+
+    list-style: none;
+}
+
+.topo-menu li {
+    margin-left: 25px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+}
+.conteudo-grade {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    flex-wrap: wrap;
+}
+
+.destino-caps {
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    border-radius: 500px;
+
+    overflow: hide;
+}
+
+.destino-caps button {
+    margin: 15px 0px;
+}
+
+.destino-caps img {
+    position: relative;
+    height: 125px;
+    width: 125px;
+
+    border: 3px solid black;
+
+    border-radius: 500px;
+}
+.destino-nome {
+    margin-top: 53px;
+
+    font-weight: bold;
+    
+    text-align: center;
+
+    width: 125px;
+
+    padding: 5px 0px;
+
+    position: absolute;
+
+    color: #FFF;
+
+    background-color: #0000005b;
+
+}
+
+.destino-caps button {
+    color: #FFF ;
+    padding: 20px;
+
+    background-color: #053080;
+
+    border: 2px solid black;
+}
